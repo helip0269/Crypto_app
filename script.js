@@ -87,7 +87,7 @@ document.getElementById("chatIcon").addEventListener("click", function() {
   
   // Send user message to ChatGPT API
   function sendMessage(message) {
-    var apiKey = "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"; // Replace with your actual API key
+    var apiKey = "OPEN-AI KEY"; // Replace with your actual API key
     var url = "https://api.openai.com/v1/chat/completions";
     var data = {
       "model": "gpt-3.5-turbo",
