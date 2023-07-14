@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="Images/C.png" class="logo">
+            <ul>
+                <li><a href="#">Market</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">White Paper</a></li>
+                <li><a href="#">About Us</a></li>
+            </ul>
+            <a href="#" class="btn" onclick="setLanguage('en')">EN</a>
+
+        </nav>
+
+
+        <div class="content">
+            <h1>BUY & <br>SELL <span>Crypto</span></h1>
+            <p id="page-content">World's biggest crypto web page available for web <br> as well as mobile phone.</p>
+            <a href="#" class="btn">EXPLORE MORE</a>
+        </div>
+
+        <div class="coin-list">
+            <div class="coin">
+                <img src="Images/ethereum.png">
+                <div>
+                    <h3>$<span id="ethereum"></span></h3>
+                    <p>Ethereum</p>
+                </div>
+
+            </div>
+            <div class="coin">
+                <img src="Images/bitcoin.png">
+                <div>
+                    <h3>$<span id="bitcoin"></span></h3>
+                    <p>Bitcoin</p>
+                </div>
+
+            </div>
+            <div class="coin">
+                <img src="Images/dogecoin.png">
+                <div>
+                    <h3>$<span id="dogecoin"></span></h3>
+                    <p>Dogecoin</p>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="chat-icon" id="chatIcon">
+            <span class="chat-icon__symbol">&#x1F4AC;</span>
+          </div>
+        
+          <div class="chatbox" id="chatBox">
+            <div class="chatbox__header">
+              <span class="chatbox__title">Chat</span>
+            </div>
+            <div class="chatbox__content" id="chatContent" >
+                <img class="person" src="Images/person.png">
+            </div>
+            <div class="chatbox__input">
+              <input type="text" placeholder="Type your message" id="userInput">
+              <button class="chatbox__send-btn" id="sendBtn">Send</button>
+            </div>
+          </div>
+
+
+    </div>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+
